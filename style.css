@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+
+.nav__menu{
+height: 100%;
+width: 190px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(0, 0, 0);
+overflow: hidden;
+padding-top: 20px;
+}
+
+.nav__menu a{
+padding: 20px;
+margin-top: 20px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+display: block;
+text-align: justify;
+padding-left: 40px;
+}
+
+.menu{
+margin-top:200px ;
+}
+
+.nav__menu a:hover{
+border-left: 5px solid #666;
+background-color: #222;
+
+}
