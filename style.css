@@ -28,6 +28,7 @@ color: white;
 display: block;
 text-align: justify;
 padding-left: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .menu{
@@ -36,6 +37,7 @@ margin-top:200px ;
 
 .nav__menu a:hover{
 border-left: 5px solid #666;
-background-color: #222;
+background-color: #333 ;
+
 
 }
