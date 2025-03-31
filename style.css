@@ -86,3 +86,28 @@ body{
             font-size: 46px;
             padding: 30px;
             }
+    
+            .tecnologias{
+                color: rgb(218, 218, 218);
+                width: 60%;
+                height: auto;
+                border: 5px solid red;
+                margin: auto;
+                margin-top: 200px;
+                background-color: #2226;
+                
+                
+            }
+            .tecnologias_tabla{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: 1000px;
+                height: 500px;
+            }
+            
+            .tecnologias_tabla svg{
+            margin: auto;
+            height: 220px;
+            width: 220px;
+            }
