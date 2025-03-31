@@ -41,34 +41,29 @@ body{
     border-left: 6px solid rgba(71, 71, 71, 0.867);
     }
 
-.main__contenido{
-    font-size: 22px;
-    height: 100vh;
-    }
-    
-    .main__presentacion{
-    
-    width: 850px;
-    height: 450px;
-    text-align: center;
-    margin: auto;
-    align-items: center;
-    color: rgb(218, 218, 218);
-    font-size: 6vh;
-    padding-top: 125px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 3.5px;
-    }
-    
-    .main__principal{
-    display: flex;
-    height: 100vh;
-    }
-    
-    .main__principal{
-    display: flex;
-    height: 100vh;
-    }
+    .main__contenido{
+        font-size: 22px;
+        height: 100vh;
+        }
+        
+        .main__presentacion{
+        
+        width: 850px;
+        height: 450px;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        color: rgb(218, 218, 218);
+        font-size: 6vh;
+        padding-top: 125px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 3.5px;
+        }
+        
+        .main__principal{
+        display: flex;
+        height: 100vh;
+        }
     
     .main_skills{
     background-color: #222;
