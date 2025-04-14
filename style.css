@@ -139,26 +139,36 @@ body{
 
 
 
-        .sobre_mi{
-
-            color: rgb(218, 218, 218);
-            width: 60%;
-            height: auto;
-            margin: auto;
-            padding-bottom: 60px;
-            }
-            
-            .sobre_mi p{
-            text-align: start;
-            padding: 0px 35px;
-            font-size: 24px;
-            }
-            
-.sobre_mi h2, .tecnologias h2{
-text-align: center;
-font-size: 43px;
-padding: 30px;
-}
+            .sobre_mi{
+                color: rgb(218, 218, 218);
+                width: 55%;
+                height: auto;
+                margin: auto;
+                padding-bottom: 60px;
+                background-color: #c1c1c1;
+                border-radius: 20px;
+                margin-top: 300px;
+                }
+                
+                .sobre_mi p{
+                text-align: start;
+                padding: 35px 35px;
+                font-size: 23px;
+                color: #555;
+                
+                }
+                
+                
+                .span-sobremi{
+                    font-size: 46px;
+                    color: #bb00ff;
+                }
+                .sobre_mi h2{
+                font-size: 46px;
+                padding: 20px;
+                color: #333;
+                background-color: #c7c7c7;
+                }
 
 .tecnologias{
 color: rgb(218, 218, 218);
