@@ -87,6 +87,58 @@ body{
         background-position: center;
         background-size: contain;
         }
+
+        .proyectos-main{
+            width: 100%;
+            height: 700px;
+            color: rgb(218, 218, 218);
+            margin: auto;
+            margin-top: 120px;
+            border-radius: 30px;
+            margin-top: 500px;
+            }
+            
+            .proyectos-main h2{
+                font-size: 46px;
+                color: #333;
+                padding-left: 17%;
+                padding-bottom:30px ;}
+            
+            .span-proyectos{
+                font-size: 46px;
+                color: #bb00ff;
+                padding-bottom:30px 
+            
+            }
+            
+            
+            .proyectos-grilla{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 60px;
+            width: 70%;
+            margin: auto;
+            }
+            
+            .proyectos{
+            border: 3px solid #c1c1c1; 
+            background-color: #c1c1c1;
+            border-radius: 30px;
+            height: 240px ; 
+            width: 29%; 
+            margin: 0;
+            margin: auto;
+            transition: transform 0.3s ease;
+            }
+            
+            .proyectos:hover{
+                transform: scale(1.1); 
+            }
+
+
+
+
         .sobre_mi{
 
             color: rgb(218, 218, 218);
