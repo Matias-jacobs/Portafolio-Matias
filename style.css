@@ -77,6 +77,16 @@ body{
         align-items: center;
         margin-top: 100px;}
         
+        .main-mis-redes svg:last-child{
+            width: 40px;
+        }
+        
+        .main-mis-redes svg:first-child{
+        width: 60px;
+        }
+        
+        
+
         .main-principal-imagen
         {width: 46vw;
         height: 70vh;
@@ -217,8 +227,60 @@ body{
                 margin-bottom: 200px;
             }
             
-            .footer{
-                width: 100%;
-                height: 500px;
-                background-color: #555;
-            }
+           
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #bbb;
+}
+
+.footer-items{
+width: 70%;
+height: 400px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.anclas-footer ul{
+list-style: none;
+background-color: #c7c7c7;
+    padding: 30px;
+    border-radius: 30px;    
+}
+
+.anclas-footer a{
+    text-decoration: none;
+    color: #333; 
+}
+
+.anclas-footer li{
+    padding-top: 10px;
+
+}
+
+.anclas-footer a:hover{
+    color: #bb00ff;
+}
+
+.sobre-mi-footer{
+    background-color: #c7c7c7;
+    padding: 30px;
+    border-radius: 30px;
+}
+.sobre-mi-footer svg:last-child{
+    width: 40px;
+}
+
+.sobre-mi-footer svg:first-child{
+width: 60px;
+}
+
+.gracias-footer{
+    font-size: 40px;
+    background-color: #c7c7c7;
+    padding: 30px;
+    border-radius: 30px;
+    color: #bb00ff;
+}
