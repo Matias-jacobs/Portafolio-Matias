@@ -7,7 +7,7 @@
 body{
     background-color: #c7c7c7;
     background-image: url(fondito2.png);
-    
+    background-size: contain;
 }
 .nav__menu{
     height: 90px;
