@@ -77,12 +77,9 @@ body{
         align-items: center;
         margin-top: 100px;}
         
-        .main-mis-redes svg:last-child{
-            width: 40px;
-        }
-        
-        .main-mis-redes svg:first-child{
-        width: 60px;
+      
+        .main-mis-redes svg{
+        width: 40px;
         }
         
         
@@ -269,17 +266,13 @@ background-color: #c7c7c7;
     padding: 30px;
     border-radius: 30px;
 }
-.sobre-mi-footer svg:last-child{
-    width: 40px;
-}
 
-.sobre-mi-footer svg:first-child{
-width: 60px;
+.sobre-mi-footer svg{
+width: 50px;
 }
 
 .gracias-footer{
     font-size: 40px;
-    background-color: #c7c7c7;
     padding: 30px;
     border-radius: 30px;
     color: #bb00ff;
