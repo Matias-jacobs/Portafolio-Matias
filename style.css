@@ -82,7 +82,13 @@ body{
         width: 40px;
         }
         
-        
+        .main-mis-redes svg:hover{
+            transform: scale(1.2); 
+                
+            }
+            
+            .main-mis-redes{transition: transform 0.3s ease;}
+            
 
         .main-principal-imagen
         {width: 46vw;
@@ -270,6 +276,13 @@ background-color: #c7c7c7;
 .sobre-mi-footer svg{
 width: 50px;
 }
+
+.sobre-mi-footer svg:hover{
+    transform: scale(1.2); 
+        
+    }
+    
+.sobre-mi-footer{transition: transform 0.3s ease;} 
 
 .gracias-footer{
     font-size: 40px;
