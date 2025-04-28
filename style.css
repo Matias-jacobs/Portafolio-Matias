@@ -77,15 +77,18 @@ body{
         align-items: center;
         margin-top: 100px;}
         
-        .main-mis-redes svg:last-child{
-            width: 40px;
+      
+        .main-mis-redes svg{
+        width: 40px;
         }
         
-        .main-mis-redes svg:first-child{
-        width: 60px;
-        }
-        
-        
+        .main-mis-redes svg:hover{
+            transform: scale(1.2); 
+                
+            }
+            
+            .main-mis-redes{transition: transform 0.3s ease;}
+            
 
         .main-principal-imagen
         {width: 46vw;
@@ -131,42 +134,73 @@ body{
             margin: auto;
             }
             
-            .proyectos{
-            border: 3px solid #c1c1c1; 
+
+            .imagen-proyecto1{
+                border: 3px solid #c1c1c1; 
+                background-image: url(Captura\ de\ pantalla\ \(12\).png);
+                background-size: cover;
+                background-position: center;
+                height: 260px ; 
+                width: 90%; 
+                margin: auto;
+                margin-top: 10px;
+                transition: transform 0.3s ease;
+                border-radius: 12px;
+                opacity: 78%;
+                padding: 20px;
+                }
+            
+            .proyecto-1{
+            width: 35%;
+            height: auto;
+            border: 3px solid #aaa;
             background-color: #c1c1c1;
-            border-radius: 30px;
-            height: 240px ; 
-            width: 29%; 
-            margin: 0;
-            margin: auto;
-            transition: transform 0.3s ease;
+            border-radius: 12px;
+            padding: 10px;
             }
             
-            .proyectos:hover{
-                transform: scale(1.1); 
+            .proyecto-1:hover{
+                transform: scale(1.04); 
             }
+            
+            .proyecto-1{transition: transform 0.3s ease;}
+            
 
 
+.yo-sobre-mi{
+width: 34%;
+height: 300px;
+object-fit: cover;
+margin: auto;
+padding: 0;
+border-radius: 100%;
+}
+
+.sobre-mi-elementos{
+    display: flex;
+}
 
 
-            .sobre_mi{
-                color: rgb(218, 218, 218);
-                width: 55%;
-                height: auto;
-                margin: auto;
-                padding-bottom: 60px;
-                background-color: #c1c1c1;
-                border-radius: 20px;
-                margin-top: 300px;
-                }
-                
-                .sobre_mi p{
-                text-align: start;
-                padding: 35px 35px;
-                font-size: 23px;
-                color: #555;
-                
-                }
+.sobre_mi p{
+    text-align: start;
+    padding: 25px 25px 0px 0;
+    font-size: 23px;
+    color: #555;
+    width: 60%;
+    }
+
+.sobre_mi{
+color: rgb(218, 218, 218);
+width: 55%;
+height: auto;
+margin: auto;
+padding-bottom: 60px;
+background-color: #c1c1c1;
+border-radius: 20px;
+margin-top: 300px;
+
+}
+
                 
                 
                 .span-sobremi{
@@ -269,17 +303,20 @@ background-color: #c7c7c7;
     padding: 30px;
     border-radius: 30px;
 }
-.sobre-mi-footer svg:last-child{
-    width: 40px;
+
+.sobre-mi-footer svg{
+width: 50px;
 }
 
-.sobre-mi-footer svg:first-child{
-width: 60px;
-}
+.sobre-mi-footer svg:hover{
+    transform: scale(1.2); 
+        
+    }
+    
+.sobre-mi-footer{transition: transform 0.3s ease;} 
 
 .gracias-footer{
     font-size: 40px;
-    background-color: #c7c7c7;
     padding: 30px;
     border-radius: 30px;
     color: #bb00ff;
