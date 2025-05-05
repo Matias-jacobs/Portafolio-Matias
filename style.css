@@ -1,171 +1,176 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
 }
 body{
-    background-color: #c7c7c7;
-    background-image: url(fondito2.png);
-    background-size: contain;
+background-color: #c7c7c7;
+background-image: url(fondito2.png);
+background-size: contain;
 }
+
+  /* MENU  */
+
+
 .nav__menu{
-    height: 90px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #c3c3c3;
-    overflow: hidden;
-    padding-top: 20px;
-    box-shadow: 0 0 10px 1px #c2c2c2;
-    opacity: 98%; }
-    
+height: 90px;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #c3c3c3;
+overflow: hidden;
+padding-top: 20px;
+box-shadow: 0 0 10px 1px #c2c2c2;
+opacity: 98%; }
 
-    .menu{
-    padding-top: 13px;
-    text-align: center;
-    }
-    
-    .menu a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #333;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 30px;
-    box-sizing: content-box;
-    padding: 16px;
-    letter-spacing: 1px;
-    margin: auto;
-    }
-    
-    .menu a:hover  {
-    color: #bb00ff;
-    }
 
-    .main__contenido{
-        font-size: 22px;
-        
-        }
-        
-        .main__presentacion{
-        background-color: #c7c7c7   ;
-        width: 40%;
-        height: auto;
-        text-align: center;
-        margin-left:80px ;
-        
-        }
-        
-        .main__presentacion h1{
-            color: #bb00ff;
-            font-size: 80px;
-        
-        }
-        
-        .main__presentacion p{
-            font-size: 15px;
-            text-align: start;
-            width: 70%;
-            margin: auto;
-            color: #555;
-        }
-        
-        .main__principal{
-        display: flex;
-        align-items: center;
-        margin-top: 100px;}
-        
-      
-        .main-mis-redes svg{
-        width: 40px;
-        }
-        
-        .main-mis-redes svg:hover{
-            transform: scale(1.2); 
-                
-            }
-            
-            .main-mis-redes{transition: transform 0.3s ease;}
-            
+.menu{
+padding-top: 13px;
+text-align: center;
+}
 
-        .main-principal-imagen
-        {width: 46vw;
-        height: 70vh;
-        margin: auto;
-        transition:  0.6s ease;
-        background-image: url('yo-dibujo.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        }
+.menu a{
+text-decoration: none;
+font-size: 20px;
+color: #333;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 30px;
+box-sizing: content-box;
+padding: 16px;
+letter-spacing: 1px;
+margin: auto;
+}
 
-        .proyectos-main{
-            width: 100%;
-            height: 700px;
-            color: rgb(218, 218, 218);
-            margin: auto;
-            margin-top: 120px;
-            border-radius: 30px;
-            margin-top: 500px;
-            }
-            
-            .proyectos-main h2{
-                font-size: 46px;
-                color: #333;
-                padding-left: 17%;
-                padding-bottom:30px ;}
-            
-            .span-proyectos{
-                font-size: 46px;
-                color: #bb00ff;
-                padding-bottom:30px 
-            
-            }
-            
-            
-            .proyectos-grilla{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 60px;
-            width: 70%;
-            margin: auto;
-            }
-            
+.menu a:hover  {
+color: #bb00ff;
+}
 
-            .imagen-proyecto1{
-                border: 3px solid #c1c1c1; 
-                background-image: url(Captura\ de\ pantalla\ \(12\).png);
-                background-size: cover;
-                background-position: center;
-                height: 260px ; 
-                width: 90%; 
-                margin: auto;
-                margin-top: 10px;
-                transition: transform 0.3s ease;
-                border-radius: 12px;
-                opacity: 78%;
-                padding: 20px;
-                }
-            
-            .proyecto-1{
-            width: 35%;
-            height: auto;
-            border: 3px solid #aaa;
-            background-color: #c1c1c1;
-            border-radius: 12px;
-            padding: 10px;
-            }
-            
-            .proyecto-1:hover{
-                transform: scale(1.04); 
-            }
-            
-            .proyecto-1{transition: transform 0.3s ease;}
-            
+.main__contenido{
+font-size: 22px;
+}
 
+/* PRESENTACION  */
+
+.main__presentacion{
+background-color: #c7c7c7   ;
+width: 40%;
+height: auto;
+text-align: center;
+margin-left:80px ;
+}
+
+.main__presentacion h1{
+color: #bb00ff;
+font-size: 80px;
+}
+
+.main__presentacion p{
+font-size: 15px;
+text-align: start;
+width: 70%;
+margin: auto;
+color: #555;
+}
+
+.main__principal{
+display: flex;
+align-items: center;
+margin-top: 100px;
+}
+
+.main-principal-imagen{
+width: 46vw;
+height: 70vh;
+margin: auto;
+transition:  0.6s ease;
+background-image: url('yo-dibujo.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;}
+
+
+/* MIS REDES  */
+
+.main-mis-redes svg{
+width: 40px;
+}
+
+.main-mis-redes svg:hover{
+transform: scale(1.2); 
+}
+
+.main-mis-redes{
+transition: transform 0.3s ease;
+}
+
+/* MIS PROYECTOS  */
+
+.proyectos-main{
+width: 100%;
+height: 700px;
+color: rgb(218, 218, 218);
+margin: auto;
+margin-top: 120px;
+border-radius: 30px;
+margin-top: 500px;
+}
+
+.proyectos-main h2{
+font-size: 46px;
+color: #333;
+padding-left: 17%;
+padding-bottom:30px ;}
+
+.span-proyectos{
+font-size: 46px;
+color: #bb00ff;
+padding-bottom:30px 
+}
+
+
+.proyectos-grilla{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 60px;
+width: 70%;
+margin: auto;
+}
+
+.imagen-proyecto1{
+border: 3px solid #c1c1c1; 
+background-image: url(Captura\ de\ pantalla\ \(12\).png);
+background-size: cover;
+background-position: center;
+height: 260px ; 
+width: 90%; 
+margin: auto;
+margin-top: 10px;
+transition: transform 0.3s ease;
+border-radius: 12px;
+opacity: 78%;
+padding: 20px;
+}
+
+.proyecto-1{
+width: 35%;
+height: auto;
+border: 3px solid #aaa;
+background-color: #c1c1c1;
+border-radius: 12px;
+padding: 10px;
+}
+
+.proyecto-1:hover{
+transform: scale(1.04); 
+}
+
+.proyecto-1{transition: transform 0.3s ease;}
+
+/* SOBRE MI  */
 
 .yo-sobre-mi{
 width: 34%;
@@ -177,17 +182,17 @@ border-radius: 100%;
 }
 
 .sobre-mi-elementos{
-    display: flex;
+display: flex;
 }
 
 
 .sobre_mi p{
-    text-align: start;
-    padding: 25px 25px 0px 0;
-    font-size: 23px;
-    color: #555;
-    width: 60%;
-    }
+text-align: start;
+padding: 25px 25px 0px 0;
+font-size: 23px;
+color: #555;
+width: 60%;
+}
 
 .sobre_mi{
 color: rgb(218, 218, 218);
@@ -201,71 +206,79 @@ margin-top: 300px;
 
 }
 
-                
-                
-                .span-sobremi{
-                    font-size: 46px;
-                    color: #bb00ff;
-                }
-                .sobre_mi h2{
-                font-size: 46px;
-                padding: 20px;
-                color: #333;
-                background-color: #c7c7c7;
-                }
+.span-sobremi{
+font-size: 46px;
+color: #bb00ff;
+}
 
-                .tecnologias    {
-                    background-color: #c1c1c1  ;
-                    color: rgb(218, 218, 218);
-                    width: 55%;
-                    height: auto;
-                    margin: auto;
-                    margin-top: 250px;
-                    border-radius: 20px;
-                    margin-bottom: 100px;
-                }
-                
-                
-                .tecnologias h2, .herramientas h2{
-                    color: #bb00ff;
-                    font-size: 46px;
-                    padding: 20px;
-                background-color: #c7c7c7;
-                    }
-                
-                .tecnologias_tabla, .herramientas_tabla{
-                    display: grid;
-                    grid-template-columns: repeat(3,1fr);
-                    grid-template-rows: repeat(2,auto);
-                    width: 80%;
-                    height: auto;
-                    padding: 5% 0 5% 0;
-                    margin: auto;
-                }
-                
-                .tecnologias_tabla svg, .herramientas_tabla svg{
-                margin: auto;
-                height: 120px;
-                width: 120px;
-                padding:10px;
-                }
+.sobre_mi h2{
+font-size: 46px;
+padding: 20px;
+color: #333;
+background-color: #c7c7c7;
+}
 
-                .herramientas{
-                    background-color: #c1c1c1  ;
-                    color: rgb(218, 218, 218);
-                    width: 55%;
-                    height: auto;
-                    margin: auto;
-                    margin-top: 250px;
-                    border-radius: 20px;
-                margin-bottom: 200px;
-            }
-            
-           
+
+/* TECNOLOGIAS  */
+
+
+.tecnologias    {
+background-color: #c1c1c1  ;
+color: rgb(218, 218, 218);
+width: 55%;
+height: auto;
+margin: auto;
+margin-top: 250px;
+border-radius: 20px;
+margin-bottom: 100px;
+}
+
+
+.tecnologias h2, .herramientas h2{
+color: #bb00ff;
+font-size: 46px;
+padding: 20px;
+background-color: #c7c7c7;
+}
+
+.tecnologias_tabla, .herramientas_tabla{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,auto);
+width: 80%;
+height: auto;
+padding: 5% 0 5% 0;
+margin: auto;
+}
+
+.tecnologias_tabla svg, .herramientas_tabla svg{
+margin: auto;
+height: 120px;
+width: 120px;
+padding:10px;
+}
+
+
+/* HERRAMIENTAS  */
+
+.herramientas{
+background-color: #c1c1c1  ;
+color: rgb(218, 218, 218);
+width: 55%;
+height: auto;
+margin: auto;
+margin-top: 250px;
+border-radius: 20px;
+margin-bottom: 200px;
+}
+
+
+/* FOOTER  */
+
 .footer{
-    width: 100%;
-    height: 500px;
-    background-color: #bbb;
+width: 100%;
+height: 500px;
+background-color: #bbb;
 }
 
 .footer-items{
@@ -280,28 +293,27 @@ align-items: center;
 .anclas-footer ul{
 list-style: none;
 background-color: #c7c7c7;
-    padding: 30px;
-    border-radius: 30px;    
+padding: 30px;
+border-radius: 30px;    
 }
 
 .anclas-footer a{
-    text-decoration: none;
-    color: #333; 
+text-decoration: none;
+color: #333; 
 }
 
 .anclas-footer li{
-    padding-top: 10px;
-
+padding-top: 10px;
 }
 
 .anclas-footer a:hover{
-    color: #bb00ff;
+color: #bb00ff;
 }
 
 .sobre-mi-footer{
-    background-color: #c7c7c7;
-    padding: 30px;
-    border-radius: 30px;
+background-color: #c7c7c7;
+padding: 30px;
+border-radius: 30px;
 }
 
 .sobre-mi-footer svg{
@@ -309,15 +321,16 @@ width: 50px;
 }
 
 .sobre-mi-footer svg:hover{
-    transform: scale(1.2); 
-        
-    }
-    
-.sobre-mi-footer{transition: transform 0.3s ease;} 
+transform: scale(1.2); 
+}
+
+.sobre-mi-footer{
+transition: transform 0.3s ease;
+} 
 
 .gracias-footer{
-    font-size: 40px;
-    padding: 30px;
-    border-radius: 30px;
-    color: #bb00ff;
+font-size: 40px;
+padding: 30px;
+border-radius: 30px;
+color: #bb00ff;
 }
