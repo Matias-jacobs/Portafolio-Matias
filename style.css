@@ -1,48 +1,54 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-family: "Inter", sans-serif;
 }
-body{
-    background-color: #c7c7c7;
-    background-image: url(fondito2.png);
-    background-size: contain;
-}
-.nav__menu{
-    height: 90px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #c3c3c3;
-    overflow: hidden;
-    padding-top: 20px;
-    box-shadow: 0 0 10px 1px #c2c2c2;
-    opacity: 98%; }
-    
 
-    .menu{
-    padding-top: 13px;
-    text-align: center;
-    }
-    
-    .menu a{
+:root {
+    --main-color: rgb(1, 1, 36);
+    --second-color: rgb(47, 0, 47);
+    --text-color: #fff;
+}
+
+body {
+margin: 0;
+font-family:'Inter', sans-serif;
+background: linear-gradient(45deg, var(--main-color), var(--second-color));
+color: var(--text-color);
+}
+
+
+nav {
+    background: linear-gradient(95deg, var(--main-color), var(--second-color));
+    padding: 1rem 0rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 4rem;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-a {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Inter';
     text-decoration: none;
-    font-size: 20px;
-    color: #333;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 30px;
-    box-sizing: content-box;
-    padding: 16px;
-    letter-spacing: 1px;
-    margin: auto;
-    }
-    
-    .menu a:hover  {
-    color: #bb00ff;
-    }
+    margin: 0;
+    color: #fff;
+}
+
 
     .main__contenido{
         font-size: 22px;
