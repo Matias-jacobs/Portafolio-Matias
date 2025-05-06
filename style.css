@@ -10,13 +10,14 @@
     --text-color: #fff;
 }
 
+/* NAV */
+
 body {
 margin: 0;
 font-family:'Inter', sans-serif;
 background: linear-gradient(45deg, var(--main-color), var(--second-color));
 color: var(--text-color);
 }
-
 
 nav {
     background: linear-gradient(95deg, var(--main-color), var(--second-color));
@@ -49,6 +50,30 @@ nav ul {
     color: #fff;
 }
 
+/* SECTION */
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+section h2 {
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 10px;
+}
+
+/* SECTION SOBRE MI */
+
+.sobremi{display: flex; gap: 2rem ; align-items: center;}
+.sobremi-p{width: 40rem;}
+
+.sobremi-imagen{
+width: 200px; height: 200px;
+object-fit: cover;
+border-radius: 50%;
+
+}
 
     .main__contenido{
         font-size: 22px;
