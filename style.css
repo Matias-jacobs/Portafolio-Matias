@@ -110,6 +110,59 @@ border-radius: 50%;
     font-size: 0.95rem;
   }
 
+/* SECTION PROYECTOS*/
+
+.proyectos {
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .proyectos h2 {
+    text-align: center;
+    color: #3b0a57;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .proyecto {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .proyecto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .proyecto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .proyecto-info {
+    padding: 15px;
+  }
+  
+  .proyecto-info h3 {
+    color: #3b0a57;
+    margin-bottom: 10px;
+  }
+  
+  .proyecto-info p {
+    color: #5a287d;
+  }
+
 
     .main__contenido{
         font-size: 22px;
