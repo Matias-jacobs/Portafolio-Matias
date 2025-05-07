@@ -9,7 +9,14 @@
 }
 
 
+/* HEADER */
 
+
+
+header{
+max-width: 80rem;
+margin: 100px auto;
+}
 
 
 /* NAV */
@@ -70,7 +77,7 @@ section {
     padding: 60px 20px;
     max-width: 900px;
     margin: auto;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 
 section h2 {
@@ -92,7 +99,12 @@ gap: 2rem ;
 align-items: center;}
 
 .sobremi-p{
-width: 40rem;}
+width: 40rem;
+font-size: 1.25rem;}
+
+#sobremi h2 #proyectos h2 #tecnologias h2 {
+  font-size: 1.8rem;
+}
 
 .sobremi-imagen{
 width: 200px;
@@ -145,6 +157,56 @@ border-radius: 50%;
   }
 
 
+  .card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Contenido interno */
+  .card h3,
+  .card p {
+    position: relative;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Fondo con imagen oculto inicialmente */
+  .card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+
+.card:nth-child(2):after{
+background-color: red;
+}
+
+.card:nth-child(3):after{
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png');
+}
+
+.card:nth-child(4):after{}
+
+.card:nth-child(5):after{
+}
+.card:nth-child(1):after{
+background-color: blue;}
+
+/* Al hacer hover, ocultamos texto y mostramos imagen */
+.card:hover::after {
+opacity: 1;
+}
+
+.card:hover h3,
+.card:hover p {
+opacity: 0;
+}
 
 
 
@@ -167,14 +229,14 @@ border-radius: 50%;
   
   .proyectos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
-    max-width: 500px;
+    max-width: 350px;
     margin: auto;
   }
   
   .proyecto {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -196,12 +258,12 @@ border-radius: 50%;
   }
   
   .proyecto-info h3 {
-    color: #3b0a57;
+    color: #f0ebf3;
     margin-bottom: 10px;
   }
   
   .proyecto-info p {
-    color: #5a287d;
+    color: #f0ebf3;
   }
 
 
@@ -251,30 +313,25 @@ border-radius: 50%;
 
 
 
-
-    .main__contenido{
-        font-size: 22px;
-        
-        }
-        
         .main__presentacion{
-        width: 40%;
+        width: 70%;
         height: auto;
         text-align: center;
         margin-left:80px ;
-        
+        animation: slideIn 1s ease;
         }
         
         .main__presentacion h1{
             color: #bb00ff;
             font-size: 80px;
+            margin: 10px auto;
         
         }
         
         .main__presentacion p{
             font-size: 15px;
             text-align: start;
-            width: 70%;
+            width: 80%;
             margin: auto;
             color: #555;
         }
@@ -282,7 +339,7 @@ border-radius: 50%;
         .main__principal{
         display: flex;
         align-items: center;
-        margin-top: 100px;}
+        margin-top: 150px;}
         
       
         .main-mis-redes svg{
@@ -299,12 +356,22 @@ border-radius: 50%;
 
         .main-principal-imagen
         {width: 46vw;
-        height: 70vh;
-        margin: auto;
+        height: 36rem;
+        margin: auto 0;
         transition:  0.6s ease;
         background-image: url('yo-dibujo.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+        animation: slideIn 1s ease;
         }
+
+/*  ANIMACIONES */
+
+@keyframes slideIn {
+  from { transform: translateX(100px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+
 
