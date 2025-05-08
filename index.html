@@ -12,18 +12,18 @@
 
     <nav>
         <ul>
-          <li><a class="nav-a" href="">Inicio</a></li>
-          <li><a class="nav-a" href="">Sobre mi</a></li>
-          <li><a class="nav-a" href="">Proyectos</a></li>
-          <li><a class="nav-a" href="">Tecnologias</a></li>
+          <li><a class="nav-a" id="nav1" href="">Inicio</a></li>
+          <li><a class="nav-a" id="nav2" href="">Sobre mi</a></li>
+          <li><a class="nav-a" id="nav3" href="">Proyectos</a></li>
+          <li><a class="nav-a" id="nav4" href="">Tecnologias</a></li>
+          <button onclick="cambiarIdioma()"> </button>
         </ul>
       </nav>
-
     <header>
         <div class="main__principal">
             <div class="main__presentacion">
                 <h1>Matias Jacobs</h1>
-                <p >
+                <p id="mainPresentacionP" >
                     Soy Analista en Sistemas y Programador, con conocimientos en análisis, diseño y desarrollo de soluciones tecnológicas. Me apasiona resolver problemas mediante el uso de la lógica y la programación.
                 </p>
                 <div class="main-mis-redes">
@@ -49,7 +49,7 @@
         </header>
 
         <section id="proyectos">
-            <h2>Mis Proyectos</h2>
+            <h2 id="sectionProyectos">Mis Proyectos</h2>
             <div class="proyectos-grid">
                 <div class="proyecto">
                     <img src="Captura de pantalla (12).png" alt="Proyecto 1">
@@ -62,10 +62,10 @@
         </section>
             
             <section id="sobremi">
-                <h2>Sobre mí</h2>
+                <h2 id="sectionSobreMi">Sobre mí</h2>
                 <div class="sobremi">
                     
-                    <p class="sobremi-p">¡Hola! Mi nombre es Matías Jacobs. Nací el 5 de octubre de 2004 en Chacabuco, Buenos Aires, Argentina. Actualmente, estoy cursando el tercer año de la carrera de Analista en Sistemas.
+                    <p class="sobremi-p" id="sobremiP">¡Hola! Mi nombre es Matías Jacobs. Nací el 5 de octubre de 2004 en Chacabuco, Buenos Aires, Argentina. Actualmente, estoy cursando el tercer año de la carrera de Analista en Sistemas.
         
                         Me gradué de la secundaria en 2022 con orientación en Economía y, poco después, decidí seguir mi pasión por la tecnología e iniciar esta carrera.
                         
@@ -77,31 +77,31 @@
 
 
               <section id="tecnologias">
-                <h2>Tecnologías</h2>
+                <h2 id="sectionTecnologias">Tecnologías</h2>
                 <div class="card-container">
                     <div class="card">
                       <h3>HTML</h3>
-                      <p>Estructura básica de todas las páginas web.</p>
+                      <p id="pHTML">Estructura básica de todas las páginas web.</p>
                     </div>
                     <div class="card">
                       <h3>CSS</h3>
-                      <p>Estilos para hacer que tu sitio se vea profesional.</p>
+                      <p id="pCSS">Estilos para hacer que tu sitio se vea profesional.</p>
                     </div>
                     <div class="card">
                       <h3>Python</h3>
-                      <p>lenguaje de programación interpretado.</p>
+                      <p id="pPython">lenguaje de programación interpretado.</p>
                     </div>
                     <div class="card">
                       <h3>Mysql</h3>
-                      <p>sistema de base de datos para guardar información. </p>
+                      <p id="pMysql">sistema de base de datos para guardar información. </p>
                     </div>
                     <div class="card">
                       <h3>Flask</h3>
-                      <p>framework web en Python.</p>
+                      <p id="pFlask">framework web en Python.</p>
                     </div>
                     <div class="card">
                       <h3>Git</h3>
-                      <p>sistema para controlar versiones y colaborar en proyectos.</p>
+                      <p id="pGit">sistema para controlar versiones y colaborar en proyectos.</p>
                     </div>
                   </div>
                   
@@ -127,6 +127,7 @@
                   </div>
                 </div>
               </footer>
-              
+
+<script src="traduccion.js"> </script>
 </body>
 </html>
