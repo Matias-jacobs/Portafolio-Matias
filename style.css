@@ -183,20 +183,27 @@ border-radius: 50%;
     z-index: 1;
   }
 
-.card:nth-child(2):after{
-background-color: red;
+.card:nth-child(5):after{
+  background-image:url(FondoFlask.jpg)
 }
 
 .card:nth-child(3):after{
-background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png');
+background-image:url(FondoPython.jpg);
 }
 
-.card:nth-child(4):after{}
 
-.card:nth-child(5):after{
-}
 .card:nth-child(1):after{
-background-color: blue;}
+  background-image:url(FondoHTML.png);
+}
+
+.card:nth-child(2):after{
+  background-image:url(FondoCSS.jpg);
+}
+.card:nth-child(4):after{
+  background-image:url(FondoMysql.jpg);}
+
+.card:nth-child(6):after{
+background-image:url(FondoGit.jpg);}
 
 /* Al hacer hover, ocultamos texto y mostramos imagen */
 .card:hover::after {
