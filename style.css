@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -413,3 +414,388 @@ border-radius: 30px;
 color: #bb00ff;
 }
 
+=======
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --main-color: rgb(1, 1, 36);
+    --second-color: rgb(47, 0, 47);
+    --text-color: #fff;
+}
+
+
+/* HEADER */
+
+
+
+header{
+max-width: 80rem;
+margin: 100px auto;
+}
+
+
+/* NAV */
+
+
+
+
+
+body {
+margin: 0;
+font-family:'Inter', sans-serif;
+background: linear-gradient(45deg, var(--main-color), var(--second-color));
+color: var(--text-color);
+}
+
+nav {
+    background: linear-gradient(95deg, var(--main-color), var(--second-color));
+    padding: 1rem 0rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 4rem;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-a {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    text-decoration: none;
+    margin: 0;
+    color: #fff;
+}
+
+
+
+
+
+/* SECTION */
+
+
+
+
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+section h2 {
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 10px;
+}
+
+
+
+
+/* SECTION SOBRE MI */
+
+
+
+
+.sobremi{
+display: flex;
+gap: 2rem ; 
+align-items: center;}
+
+.sobremi-p{
+width: 40rem;
+font-size: 1.25rem;}
+
+#sobremi h2 #proyectos h2 #tecnologias h2 {
+  font-size: 1.8rem;
+}
+
+.sobremi-imagen{
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 50%;
+}
+
+
+
+
+
+/* SECTION TECNOLOGIAS */
+
+
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  
+  .card p {
+    color: #ddd;
+    font-size: 0.95rem;
+  }
+
+
+  .card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Contenido interno */
+  .card h3,
+  .card p {
+    position: relative;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Fondo con imagen oculto inicialmente */
+  .card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+
+.card:nth-child(5):after{
+  background-image:url(FondoFlask.jpg)
+}
+
+.card:nth-child(3):after{
+background-image:url(FondoPython.jpg);
+}
+
+
+.card:nth-child(1):after{
+  background-image:url(FondoHTML.png);
+}
+
+.card:nth-child(2):after{
+  background-image:url(FondoCSS.jpg);
+}
+.card:nth-child(4):after{
+  background-image:url(FondoMysql.jpg);}
+
+.card:nth-child(6):after{
+background-image:url(FondoGit.jpg);}
+
+/* Al hacer hover, ocultamos texto y mostramos imagen */
+.card:hover::after {
+opacity: 1;
+}
+
+.card:hover h3,
+.card:hover p {
+opacity: 0;
+}
+
+
+
+/* SECTION PROYECTOS*/
+
+
+
+
+.proyectos {
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .proyectos h2 {
+    text-align: center;
+    color: #3b0a57;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 350px;
+    margin: auto;
+  }
+  
+  .proyecto {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .proyecto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .proyecto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .proyecto-info {
+    padding: 15px;
+  }
+  
+  .proyecto-info h3 {
+    color: #f0ebf3;
+    margin-bottom: 10px;
+  }
+  
+  .proyecto-info p {
+    color: #f0ebf3;
+  }
+
+
+
+/* FOOTER */
+
+
+.footer {
+    background-color: #3b0a57;
+    color: #f3e9ff;
+    padding: 30px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .footer-nav {
+    margin: 15px 0;
+  }
+  
+  .footer-nav a {
+    color: #d8b4f8;
+    margin: 0 12px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-social a {
+    color: #b88dd8;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #ffffff;
+  }
+
+
+
+
+        .main__presentacion{
+        width: 70%;
+        height: auto;
+        text-align: center;
+        margin-left:80px ;
+        animation: slideIn 1s ease;
+        }
+        
+        .main__presentacion h1{
+            color: #bb00ff;
+            font-size: 80px;
+            margin: 10px auto;
+        
+        }
+        
+        .main__presentacion p{
+            font-size: 15px;
+            text-align: start;
+            width: 80%;
+            margin: auto;
+            color: #555;
+        }
+        
+        .main__principal{
+        display: flex;
+        align-items: center;
+        margin-top: 150px;}
+        
+      
+        .main-mis-redes svg{
+        width: 40px;
+        }
+        
+        .main-mis-redes svg:hover{
+            transform: scale(1.2); 
+                
+            }
+            
+            .main-mis-redes{transition: transform 0.3s ease;}
+            
+
+        .main-principal-imagen
+        {width: 46vw;
+        height: 36rem;
+        margin: auto 0;
+        transition:  0.6s ease;
+        background-image: url('yo-dibujo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        animation: slideIn 1s ease;
+        }
+
+/*  ANIMACIONES */
+
+@keyframes slideIn {
+  from { transform: translateX(100px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+
+
+>>>>>>> feat/navigation-buttons
