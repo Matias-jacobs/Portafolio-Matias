@@ -111,6 +111,9 @@ section h2 {
 /* SECTION SOBRE MI */
 
 
+#sobremi {
+  scroll-margin-top: 100px; /* para evitar que quede pegado al borde superior */
+}
 
 
 .sobremi{
@@ -141,7 +144,9 @@ border-radius: 50%;
 
 
 
-
+#tecnologias {
+  scroll-margin-top: 100px; /* para evitar que quede pegado al borde superior */
+}
 
 .card-container {
     display: grid;
@@ -241,6 +246,9 @@ opacity: 0;
 
 
 
+#proyectos {
+  scroll-margin-top: 100px; /* para evitar que quede pegado al borde superior */
+}
 
 .proyectos {
 padding: 60px 20px;
@@ -338,6 +346,11 @@ padding: 15px;
   }
 
 /* MAIN PRINCIPAL */
+
+#inicio {
+  scroll-margin-top: 200px; /* para evitar que quede pegado al borde superior */
+}
+
 
 .main__presentacion{
 width: 70%;
