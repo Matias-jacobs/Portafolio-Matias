@@ -3,8 +3,8 @@ let idiomaActual = 'es';
 const traducciones = {
   es: {
     nav1: 'Inicio',
-    nav2: 'Proyectos',
-    nav3: 'Sobre mí',
+    nav2: 'Sobre mí',
+    nav3: 'Proyectos',
     nav4: 'Tecnologias',
     mainPresentacionP: 'Soy Analista en Sistemas y Programador, con conocimientos en análisis, diseño y desarrollo de soluciones tecnológicas. Me apasiona resolver problemas mediante el uso de la lógica y la programación.',
     sectionProyectos: 'Mis Proyectos',
@@ -20,8 +20,8 @@ const traducciones = {
   },
   en: {
     nav1: 'Main',
-    nav2: 'Projects',
-    nav3: 'About me',
+    nav2: 'About me',
+    nav3: 'Projects',    
     nav4: 'Technologies',
     mainPresentacionP: 'I am a Systems Analyst and Programmer, with expertise in the analysis, design, and development of technological solutions. I am passionate about solving problems through the use of logic and programming.',
     sectionProyectos: 'My Projects',
