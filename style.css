@@ -356,7 +356,7 @@ padding: 15px;
 width: 70%;
 height: auto;
 text-align: center;
-margin-left:80px ;
+margin-left:5rem  ;
 animation: slideIn 1s ease;
 }
 
@@ -500,5 +500,24 @@ border-radius: 50%;
   to { transform: translateX(0); opacity: 1; }
 }
 
+/* MEDIAS */
+
+@media (max-width: 599px) {
+  .sobremi {
+    display: block;
+    justify-items: center;
+  }
+  .sobremi-p{
+    width: 100%;
+  }
+
+  .main-principal-imagen{display:none;}
+
+  .main__presentacion{
+    margin-left: 3.5rem;
+  }
+
+  .nav-a{font-size: 1rem;}
+}
 
 
