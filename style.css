@@ -8,6 +8,9 @@
     --text-color: #fff;
 }
 
+html{ 
+scroll-behavior: smooth;}
+
 
 /* HEADER */
 
