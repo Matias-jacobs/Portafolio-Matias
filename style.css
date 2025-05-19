@@ -348,6 +348,17 @@ padding: 15px;
     color: #ffffff;
   }
 
+  .boton-curriculum{
+    background-color:#bb00ff;
+    border: 0px;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
 /* MAIN PRINCIPAL */
 
 #inicio {
