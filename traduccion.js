@@ -16,7 +16,13 @@ const traducciones = {
     pPython:'lenguaje de programación interpretado.',
     pMysql:'sistema de base de datos para guardar información. ',
     pFlask:'framework web en Python.',
-    pGit:'sistema para controlar versiones y colaborar en proyectos.'
+    pGit:'sistema para controlar versiones y colaborar en proyectos.',
+    derechosReservados:'&copy; 2025 Matias Jacobs.Todos los derechos reservados.',
+    inicioFooter:'Inicio',
+    sobremiFooter:'Sobre mí',
+    proyectoFooter:'Proyectos',
+    tecnologiasFooter:'Tecnologias',
+    curriculum:'Descargar curriculum'
   },
   en: {
     nav1: 'Main',
@@ -33,7 +39,14 @@ const traducciones = {
     pPython:'interpreted programming language.',
     pMysql:'database system for storing information.',
     pFlask:'framework web in Python.',
-    pGit:'system for controlling versions and collaborating on projects.'
+    pGit:'system for controlling versions and collaborating on projects.',
+    derechosReservados:'&copy; 2025 Matias Jacobs. All rights reserved.',
+    inicioFooter:'Main',
+    sobremiFooter:'About me',
+    proyectoFooter:'Projects',
+    tecnologiasFooter:'Technologies',
+    curriculum:'Download resume'
+
   }
 };
 
@@ -54,4 +67,10 @@ function cambiarIdioma() {
   document.getElementById('pMysql').textContent = traducciones[idiomaActual].pMysql;
   document.getElementById('pFlask').textContent = traducciones[idiomaActual].pFlask;
   document.getElementById('pGit').textContent = traducciones[idiomaActual].pGit;
+  document.getElementById('derechosReservados').textContent = traducciones[idiomaActual].derechosReservados;
+  document.getElementById('inicioFooter').textContent = traducciones[idiomaActual].inicioFooter;
+  document.getElementById('sobremiFooter').textContent = traducciones[idiomaActual].sobremiFooter;
+  document.getElementById('proyectoFooter').textContent = traducciones[idiomaActual].proyectoFooter;
+  document.getElementById('tecnologiasFooter').textContent = traducciones[idiomaActual].tecnologiasFooter;
+  document.getElementById('curriculum').textContent = traducciones[idiomaActual].curriculum;
 }
