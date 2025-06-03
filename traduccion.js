@@ -22,10 +22,11 @@ const traducciones = {
     sobremiFooter:'Sobre mí',
     proyectoFooter:'Proyectos',
     tecnologiasFooter:'Tecnologias',
-    curriculum:'Descargar curriculum'
+    curriculum:'Descargar curriculum',
+    descripcionProyecto:'Honey Skin es una tienda virtual de budines y postres.'
   },
   en: {
-    nav1: 'Main',
+    nav1: 'Home',
     nav2: 'About me',
     nav3: 'Projects',    
     nav4: 'Technologies',
@@ -41,12 +42,12 @@ const traducciones = {
     pFlask:'framework web in Python.',
     pGit:'system for controlling versions and collaborating on projects.',
     derechosReservados:'&copy; 2025 Matias Jacobs. All rights reserved.',
-    inicioFooter:'Main',
+    inicioFooter:'Home',
     sobremiFooter:'About me',
     proyectoFooter:'Projects',
     tecnologiasFooter:'Technologies',
-    curriculum:'Download resume'
-
+    curriculum:'Download resume',
+    descripcionProyecto:'Honey Skin is a virtual pudding and dessert shop.'
   }
 };
 
@@ -73,4 +74,6 @@ function cambiarIdioma() {
   document.getElementById('proyectoFooter').textContent = traducciones[idiomaActual].proyectoFooter;
   document.getElementById('tecnologiasFooter').textContent = traducciones[idiomaActual].tecnologiasFooter;
   document.getElementById('curriculum').textContent = traducciones[idiomaActual].curriculum;
+  document.getElementById('descripcionProyecto').textContent = traducciones[idiomaActual].descripcionProyecto;
+  
 }
